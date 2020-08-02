@@ -1,0 +1,48 @@
+.NavBar {
+  background-color: #000000;
+}
+
+.NavItem {
+  color: white;
+  text-decoration: none !important;
+}
+.NavItem:hover {
+  color: red;
+  text-decoration: none !important;
+}
+
+.NavBrand {
+  color: white;
+  text-decoration: none !important;
+}
+
+.NavBrand:hover {
+  color: red;
+  text-decoration: none !important;
+}
+.NavMenu {
+  display: none;
+}
+
+.Drawer {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 100;
+  background-color: rgb(0, 115, 230);
+}
+
+.DrawerItem {
+  color: white;
+  margin-top: 32px;
+}
+
+@media (max-width: 650px) {
+  .NavItems {
+    display: none !important;
+  }
+
+  .NavMenu {
+    display: inline-block !important;
+  }
+}
