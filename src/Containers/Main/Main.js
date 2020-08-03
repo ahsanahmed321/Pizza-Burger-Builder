@@ -36,9 +36,9 @@ export default class Main extends Component {
         <div>
           <img src={burgerSVG} alt="burger here"></img>
         </div>
-        <div id="b" className={classes.hoverDiv}>
-          <Button>Lets Build Burger</Button>
-        </div>
+        <Button id="b" className={classes.hoverDiv}>
+          Lets Build Burger
+        </Button>
       </div>
     );
 
@@ -47,9 +47,9 @@ export default class Main extends Component {
         <div>
           <img src={pizzaSVG} alt="pizza here"></img>
         </div>
-        <div id="b" className={classes.hoverDiv}>
-          <Button>Lets Build Pizza</Button>
-        </div>
+        <Button id="b" className={classes.hoverDiv}>
+          Lets Build Pizza
+        </Button>
       </div>
     );
 

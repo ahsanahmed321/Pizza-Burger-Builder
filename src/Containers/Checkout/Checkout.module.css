@@ -1,7 +1,12 @@
 .order {
-  background-color: rgb(100, 30, 30) !important;
-  color: white !important;
+  background-color: #ffffff !important;
+  color: black !important;
   text-align: center;
   padding: 32px;
   margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.orderIngredient {
+  text-align: left !important;
 }

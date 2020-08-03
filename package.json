@@ -18,7 +18,8 @@
     "react-scripts": "3.3.0",
     "react-spring": "^8.0.27",
     "reactstrap": "^8.2.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "smoke-effect-react": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
